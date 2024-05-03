@@ -35,42 +35,33 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width:768px) {
-  
+  header{width: 100%; height: 200px;}
+  header .inner{padding: 50px;}
+  header .inner h1{margin: 0 auto;}
+  header .inner h1 a{width:150px; height: 80px; background-size: 150px auto;}
+  .ham-wrap{display: none;}
+
+  nav{display: block; width: auto; height: auto; position: absolute; top: 120px; left: 50%; transform: translateX(-50%); white-space: nowrap;}
+  nav ul{display: flex;}
+  nav .m-menu{padding: 0;}
+
+  nav .m-menu .mdepth1{ padding: 20px 30px 0 30px; }
+  nav .m-menu .mdepth1 > .arr{border-bottom: 0;font-size: 16px; padding: 0; position: relative;}
+  nav .m-menu .mdepth1 > .arr:hover{border-bottom: 2px solid rgba(0, 48, 96, 0.7) ;}
+
+  nav .m-menu .mdepth1 .arr span img{display: none;}
+
+  .depth2{display: none; width: auto; padding: 15px; text-align: center; position: absolute; top: 42px; left: 0;}
+  nav .m-menu .mdepth1:nth-child(1) .depth2{left: -6px;}
+  nav .m-menu .mdepth1:nth-child(2) .depth2{left: 96px;}
+  nav .m-menu .mdepth1:nth-child(3) .depth2{left:246px;}
+  nav .m-menu .mdepth1:nth-child(4) .depth2{left: 385px;}
+
+  .depth2 li{padding:5px 0;}
+  .depth2 li:hover a{text-shadow: 1px 1px rgba(0, 0, 0, 0.1);}
+  nav .m-menu .mdepth1:hover .depth2{display: block; box-shadow: 1px 1px 10px 10px rgba(0 ,0,0,0.01);}
+  nav .m-menu .mdepth1:hover .arr{border-bottom: 2px solid rgba(0, 48, 96, 0.7) ;}
 }
 
 @media screen and (min-width:1200px) {

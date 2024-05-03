@@ -1,1 +1,78 @@
 @charset "utf-8";
+
+/*모바일 기본 화면*/
+header{width: 100%; height: 80px; position: fixed; z-index: 99;}
+header .inner{padding: 20px;}
+header .inner h1{width: 120px; height: 30px;}
+
+header .inner h1.active a{display: block; width: 30px; height: 30px; background: url(../img/m_logo.png) no-repeat center / auto 30px; font-size: 0; color: transparent;}
+header .inner h1 a{display: block; width: 120px; height: 30px; background: url(../img/logo.png) no-repeat left center / 120px auto; font-size: 0; color: transparent;  transition: all 0.3s;}
+
+header .inner .ham-wrap{ cursor: pointer; width: 25px; height: 25px; position: absolute; top: 25px; right: 20px;}
+header .inner .ham-wrap span{display: block; width: 25px; height: 2px; background-color: #003060; transition: all 0.3s;}
+header .inner .ham-wrap span:nth-child(1){position: absolute; top:3px; left: 0; }
+header .inner .ham-wrap span:nth-child(2){position: absolute; top:11px; left: 0;}
+header .inner .ham-wrap span:nth-child(3){position: absolute;  bottom: 3px; left: 0;}
+
+header .inner .ham-wrap.active span:nth-child(2){opacity: 0;}
+header .inner .ham-wrap.active span:nth-child(1){position: absolute; top: 50%; transform: translateY(-50%); transform: rotate(45deg);}
+header .inner .ham-wrap.active span:nth-child(3){position: absolute;  top: 50%; transform: translateY(-50%); transform: rotate(-45deg);}
+
+
+nav{display: none; width: 100%; height: 100vh; background-color: #fff;}
+nav.show{display: block;}
+
+nav .m-menu{padding: 20px 0;}
+nav .m-menu .mdepth1 > .arr{display: block; width: 100%; padding: 10px; font-weight: 700; font-size: 20px; position: relative; border-bottom: 2px solid rgba(0, 48, 96, 0.7);}
+nav .m-menu .mdepth1 .arr span img{position: absolute; top: 50%; right: 5px; transform: translateY(-50%);}
+nav a{color: #003060;}
+
+nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
+
+.depth2{display: none; width: 95%; margin: 0 auto; height: auto; padding: 15px;}
+.depth2 li{padding:5px;}
+.depth2 li:hover a{text-shadow: 1px 1px rgba(0, 0, 0, 0.2);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+  
+}
+
+@media screen and (min-width:1200px) {
+  
+}

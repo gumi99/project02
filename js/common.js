@@ -21,4 +21,7 @@ $(document).ready(function(){//시작
     }
     
   });
+
+  AOS.init();
+
 });//끝

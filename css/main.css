@@ -153,8 +153,8 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
   .content2{flex-direction: row-reverse;}
   .content2 .content-text-box{text-align: left;}
   
-  .content-img-box img{width: 300px; height: 250px; margin-bottom: 50px;}
-  .content-text-box{padding: 10px;}
+  .content-img-box img{width:380px; height: 350px; margin-bottom: 50px;}
+  .content-text-box{padding: 20px;}
   .content-text-box h3{font-size: 24px;}
   .content-text-box p{margin-bottom: 30px; font-weight: 500;}
 
@@ -181,8 +181,8 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
   #container .inner{padding: 100px 150px;}
   .content1,.content2,.content3{justify-content: space-around;}
   
-  .content-img-box img{width: 400px; height: 350px; margin-bottom:70px;}
-  .content-text-box{line-height: 1.8;}
+  .content-img-box img{width: 450px; height: 400px; margin-bottom:70px;}
+  .content-text-box{line-height: 1.8; padding: 30px;}
   .content-text-box h3{font-size: 30px;}
 
   .sub-conbox{display: flex}

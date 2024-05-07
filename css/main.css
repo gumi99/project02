@@ -72,6 +72,23 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
 
 .sub-conbox{display: none;}
 
+#event{width: 100%; height:500px;}
+#event .inner{padding: 0 20px;}
+#event .inner .event_bg{margin: 0 auto; padding: 20px 0; width: 95%; background-color: #F3F9FF; border-radius: 40px; text-align: center; cursor: pointer; transition: all 0.3s;} 
+#event .inner .event_bg:hover{transform: rotate(2deg);}
+#event .inner .event_bg h4{padding:20px 0 10px; font-size: 14px;}
+#event .inner .event_bg h2{padding: 10px 0; font-size: 26px; background-color: #003060; color: #fff;}
+#event .inner .event_bg > p{line-height: 1.5; font-weight: 500; margin-bottom: 20px;}
+#event .inner .event_bg .event-btn a{font-size: 14px;border-bottom: 1px solid #003060; position: relative;}
+#event .inner .event_bg .event-btn a img{position: absolute; top: 50%; right: -9; transform: translateY(-50%); animation: scrollTop 1s; animation-iteration-count:infinite;}
+
+#event .inner .event_bg .event-imgbox{display: none;}
+
+@keyframes scrollTop {
+  0%{opacity: 1; top: 50%; right: -9px;}
+  50%{opacity: 1; top: 0; right: -15px;}
+  100%{opacity: 1;top: 50%; right:-9px;}
+}
 
 @media screen and (min-width:768px) {
   header{position : inherit; height: 250px; background-color: #fff;}
@@ -101,7 +118,7 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
   nav .m-menu .mdepth1:hover .depth2{display: block; box-shadow: 1px 1px 10px 10px rgba(0 ,0,0,0.01);}
   nav .m-menu .mdepth1:hover .arr{border-bottom: 2px solid rgba(0, 48, 96, 0.7) ;}
 
-  #main-visual{height: 100vh;}
+  #main-visual{width: 100%; height: 100vh;}
 
   .img-box img:nth-child(1){top: 10%; left: 0; width: 70%; height: auto; z-index: 1;}
   .img-box img:nth-child(2){ top: 27%; left: 50%; transform: translateX(-50%); width:90%; height: auto;}
@@ -157,6 +174,37 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
   .sub-conbox img:last-child{margin-right: 0;}
   .sub-conbox p{text-align: center; margin-right:10px; margin-bottom: 50px; font-size: 12px;}
 
+  #event{width: 100%; height:600px;}
+  #event .inner{padding: 0;}
+  #event .inner .event_bg{width: 100%; height: 300px; background-color: #fff; background: url(../img/event_bg.png) no-repeat center / 100% auto; border-radius: 0; padding: 0 100px; text-align: left; position: relative; top: 0; left: 0;}
+  #event .inner .event_bg:hover{transform: rotate(0);}
+  #event .inner .event_bg h4{padding: 80px 0 10px 0; font-size: 20px;}
+  #event .inner .event_bg h2{background-color: transparent; color: #000; padding: 0; font-size: 32px; margin-bottom: 20px;}
+
+  #event .inner .event_bg .event-imgbox{display: block;}
+  #event .inner .event_bg .event-imgbox img:nth-child(1){ position: absolute; top: 20px; left: 150px; width: 40px; height: auto; animation: zoom 2s;  animation-iteration-count:infinite;}
+  #event .inner .event_bg .event-imgbox img:nth-child(2){ position: absolute; bottom: 10px; left: 300px; width: 70px; height: auto;  animation: zoom 3s;  animation-iteration-count:infinite;}
+  #event .inner .event_bg .event-imgbox img:nth-child(3){ position: absolute; top: 170px; left: 40px; width: 50px; height: auto;animation: rotate 3s;  animation-iteration-count:infinite;}
+  #event .inner .event_bg .event-imgbox img:nth-child(4){ position: absolute; top: 20px; right: 200px; width: 50px; height: auto; animation: rotate 2s;  animation-iteration-count:infinite;}
+  #event .inner .event_bg .event-imgbox img:nth-child(5){ position: absolute; bottom: 20px; right: 30px; width: 100px; height: auto; animation: zoom 4s;  animation-iteration-count:infinite;}
+  #event .inner .event_bg .event-imgbox img:nth-child(6){ position: absolute; top: 50%; right: 80px; transform: translateY(-50%); width: 300px; height: auto;}
+
+  #event .inner .event_bg .event-btn a{position: absolute; bottom: 80px; right: 250px;}
+
+  #event .inner .event_bg .event-btn a img{display: none;}
+
+  @keyframes zoom {
+    0% {opacity: 0; scale: 0.7;}
+    50%{opacity: 1; scale: 1;}
+    100%{opacity: 0; scale: 1.1;}
+  }
+
+  @keyframes rotate {
+    0% {opacity: 0; rotate: 0; scale: 0.5;}
+    50%{opacity: 1; rotate: 360deg; scale: 1;}
+    100%{opacity: 0;rotate: 0; scale: 1.1;}
+  }
+
   }/* 768px 끝 */
 
 
@@ -186,5 +234,16 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
   .sub-conbox{display: flex}
   .sub-conbox img{width: 109px; height: 58px; border-radius: 15px; margin-right: 20px;}
   .sub-conbox p{text-align: center; margin-right: 20px; margin-bottom: 50px; font-size: 16px;}
+
+  #event .inner .event_bg{height: 400px; padding: 0 200px;}
+  #event .inner .event_bg h4{padding: 130px 0 20px 0; font-size: 24px;}
+  #event .inner .event_bg h2{font-size: 36px;}
+  #event .inner .event_bg p{font-size: 20px;}
+
+  #event .inner .event_bg .event-imgbox img:nth-child(4){width: 60px;}
+  #event .inner .event_bg .event-imgbox img:nth-child(5){bottom: 30px; right: 40px; width: 100px;}
+  #event .inner .event_bg .event-imgbox img:nth-child(6){right: 15%; width: 400px;}
+
+  #event .inner .event_bg .event-btn a{position: absolute; bottom: 100px; right: 30%; font-size: 18px;}
 
 }/* 1280px 끝 */

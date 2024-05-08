@@ -104,12 +104,13 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
 #select-box .inner .deco img{width: 30px; height: auto; padding-bottom: 140px;}
 #select-box .inner .deco h2{font-size: 22px; margin-bottom: 120px;}
 
-.info-box .info-con{border: 1px solid #d7eeff; border-radius: 30px; padding: 30px 0; margin-bottom: 100px; position:  relative; top: 0; left: 0;}
+.info-box .info-con{border: 1px solid #d7eeff; background-color: rgba(255, 255, 255, 0.3); border-radius: 30px; padding: 30px 0; margin-bottom: 100px; position:  relative; top: 0; left: 0;}
 
 .info-box .info-con .icon1{width: 45%; height: 45%; position: absolute; top: -80px; left: -50px;}
 .info-box .info-con .icon1.con2{top: 50px; right: -60px; left: auto;}
 .info-box .info-con .icon1.con3{width: 47%; height: 47%; left: -70px;}
-.info-box .info-con .icon1.con4{bottom: 0; top: auto;}
+.info-box .info-con .icon1.con4{bottom: 0; right: -60px; left: auto; top: auto;}
+.info-box .info-con .icon1.con6{right: -60px; left: auto;}
 
 .info-box .info-con .icon1 img{width: 95%; height: auto;}
 .info-box .info-con .icon1.con3 img{width: 100%;}
@@ -258,6 +259,31 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
 
   .view-btn{font-size: 14px; font-weight: 600; text-decoration: underline; text-align: center;}
   .view-btn p{padding: 5px;}
+
+  #select-box{text-align: left;}
+  #select-box .inner{padding: 100px;}
+  #select-box .inner .deco h2{font-size: 36px;}
+
+  .info-box{position: relative; top: 0; left: 0;}
+  .info-box .info-con{width: 35%; border: 10px solid rgba(124, 200, 255, 1); background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(248,251,255,1) 96%); border-radius: 40px; padding: 40px 30px; margin-bottom: 150px;}
+  .info-box .info-con:nth-child(2){position: absolute; top: 150px; left: auto; right: 0;}
+  .info-box .info-con:nth-child(4){position: absolute; top: 560px; left: auto; right: 0;}
+  .info-box .info-con:nth-child(6){position: absolute; top: 960px; left: auto; right: 0;}
+
+  .info-box .info-con .icon2{display: block; position: absolute; top: 50%; left: -22px; transform: translateY(-50%); z-index: -1;}
+  .info-box .info-con:nth-child(2n) .icon2{left: auto; right: -22px;}
+
+  .info-box .info-con h4{font-size: 20px;}
+
+  .info-box .info-con .icon1{width: 60%; height: 60%;}
+  .info-box .info-con .icon1.con1{width: 60%; height: 60%; top: -50px; left: 250px;}
+  .info-box .info-con .icon1.con2{top: 70px; right: -60px;}
+  .info-box .info-con .icon1.con3{width: 90%; height: 90%; right: -150px; left: auto;}
+  .info-box .info-con .icon1.con4{width: 80%; height: 80%; top: -200px; left: -120px;}
+  .info-box .info-con .icon1.con5{width: 90%; height: 90%; top: 30px; left: 150px;}
+  .info-box .info-con .icon1.con6{width: 80%; height: 80%; top: -200px; right: -80px; left: auto;}
+
+  .info-box .info-con .icon1 img{width: 100%; height: auto;}
  }/* 768px 끝 */
  
 
@@ -305,4 +331,7 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
   #best-item .pc-best-item li p{font-size: 20px; padding: 15px;}
 
   .view-btn{font-size: 18px; margin-top: 20px;}
+
+  #select-box .inner{padding: 150px;}
+  #select-box .inner .deco h2{font-size: 40px;}
 }/* 1280px 끝 */

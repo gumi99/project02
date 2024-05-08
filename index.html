@@ -7,13 +7,16 @@
   <title>BRITA</title>
   <link rel="stylesheet" href="css/reset.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/main.css">
   <script src="js/jquery-3.7.1.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/common.js"></script>
 </head>
 <body>
-  <header>
+  <div id="wrap">
+    <header>
     <div class="inner">
       <h1><a href="#">logo</a></h1>
       <div class="ham-wrap">
@@ -104,7 +107,7 @@
             불순물 및 중금속을 효과적으로 줄여줍니다.</p>
             <div class="sub-conbox"
             data-aos="zoom-in-up"
-            data-aos-delay="1500">
+            data-aos-delay="1000">
             <div class="sub-con1">
               <img src="img/content01_1.png" alt="서브이미지1">
               <p>초미세 그물망</p>
@@ -134,7 +137,7 @@
               매력적인 디자인을 즐길 수 있습니다.</p>
             <div class="sub-conbox" 
             data-aos="zoom-in-up"
-            data-aos-delay="1500">
+            data-aos-delay="1000">
               <div class="sub-con1">
               <img src="img/content02_1.png" alt="서브이미지1">
               <p>50년 전통</p>
@@ -162,7 +165,7 @@
               하루종일 신선하게 공급합니다.</p>
             <div class="sub-conbox"
             data-aos="zoom-in-up"
-            data-aos-delay="1500">
+            data-aos-delay="1000">
               <div class="sub-con1">
               <img src="img/content03_1.jpg" alt="서브이미지1">
               <p>염소 DOWN</p>
@@ -201,5 +204,130 @@
       </div><!--.event_bg-->
     </div><!--.inner-->
   </div><!--#event-->
+    
+  <div id="best-item">
+    <h2 data-aos="fade-up"
+    data-aos-duration="1000"
+    data-aos-delay="1000">브리타의 <br> BEST 상품</h2>
+    <div class="pc-best-item">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="img/best01.png" alt="베스트상품1">
+            <p class="text1">마렐라 XL 3.5L 화이트</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/best02.png" alt="베스트상품2">
+            <p class="text2">플로우 8.2L</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="img/best03.png" alt="베스트상품3">
+            <p class="text3">막스트라 플러스 필터 3입</p>
+          </a>
+        </li>
+      </ul>
+      <a href="#" class="view-btn"><p>View more</p></a>
+    </div><!--.pc-best-item-->
+    <div class="swiper best-item">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <a href="#">
+              <img src="img/best01.png" alt="베스트상품1">
+              <p>마렐라 XL 3.5L 화이트</p>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <img src="img/best02.png" alt="베스트상품2">
+              <p>플로우 8.2L</p>
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <img src="img/best03.png" alt="베스트상품3">
+              <p>막스트라 플러스 필터 3입</p>
+            </a>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </div><!--.swiper best-item-->
+  </div><!--#best-item-->
+
+  <div id="select-box">
+    <div class="inner">
+      <div class="deco">
+        <img src="img/deco_1.png" alt="텍스트꾸밈이미지">
+        <h2>브리타를 선택해야 하는 이유</h2>
+      </div><!--.deco-->
+      
+      <div class="info-box">
+        <div class="info-con">
+          <div class="icon1 con1">
+            <img src="img/icon1.png" alt="아이콘이미지1">
+          </div>
+          <div class="icon2">
+            <img src="img/select_left.png" alt="뚜껑이미지">
+          </div>
+          <h4>1.생활을 간편하게</h4>
+          <p>생수병 분리배출 줄여주니까<br>생활이 간편해집니다.</p>
+        </div><!--.info-con con1-->
+        <div class="info-con">
+          <div class="icon1 con2">
+            <img src="img/icon2_1.png" alt="아이콘이미지2">
+          </div>
+          <div class="icon2">
+            <img src="img/select_right.png" alt="뚜껑이미지">
+          </div>
+          <h4>2.환경에 의미있게</h4>
+          <p>생수병 사용 줄여 환경을<br>보호 할 수 있습니다.</p>
+        </div><!--.info-con con2-->
+        <div class="info-con">
+          <div class="icon1 con3">
+            <img src="img/icon3_1.png" alt="아이콘이미지3">
+          </div>
+          <div class="icon2">
+            <img src="img/select_left.png" alt="뚜껑이미지">
+          </div>
+          <h4>3.소비를 똑똑하게</h4>
+          <p>생수나 렌탈료보다 합리적인<br>비용으로 건강하고 맛있는 물을<br>즐길 수 있습니다.</p>
+        </div><!--.info-con con3-->
+        <div class="info-con">
+          <div class="icon1 con4">
+            <img src="img/icon4_1.png" alt="아이콘이미지3">
+          </div>
+          <div class="icon2">
+            <img src="img/select_right.png" alt="뚜껑이미지">
+          </div>
+          <h4>4.안전한 한국형 필터</h4>
+          <p>국내 환경에 특화된 필터 성분으로 물속의 염소, <br>불순물 및 중금속을 효과적으로 줄여줍니다.</p>
+        </div><!--.info-con con4-->
+        <div class="info-con">
+          <div class="icon1 con5">
+            <img src="img/icon5_1.png" alt="아이콘이미지3">
+          </div>
+          <div class="icon2">
+            <img src="img/select_left.png" alt="뚜껑이미지">
+          </div>
+          <h4>5.편리한 셀프케어</h4>
+          <p>필터 교체부터 세척까지!<br>내 손으로 직접 관리하는 정수기</p>
+        </div><!--.info-con con5-->
+        <div class="info-con">
+          <div class="icon1 con6">
+            <img src="img/icon6_1.png" alt="아이콘이미지3">
+          </div>
+          <div class="icon2">
+            <img src="img/select_right.png" alt="뚜껑이미지">
+          </div>
+          <h4>6.일상에서 건강하게 수분충전</h4>
+          <p>건강한 음식을 요리하기에 최적화된 부드럽고 <br>맛있는 물을 제공합니다.</p>
+        </div><!--.info-con con6-->
+      </div><!--.info-box-->
+    </div><!--.inner-->
+  </div><!--#select-box-->
+</div><!--#wrap-->
 </body>
 </html>

@@ -24,4 +24,19 @@ $(document).ready(function(){//시작
 
   AOS.init();
 
+  var swiper = new Swiper(".best-item", {
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    slidesPerView : 2,
+    centeredSlides : true ,
+    speed : 1000,
+    loop : true 
+  });
+
 });//끝

@@ -102,7 +102,7 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
 #select-box .inner{padding: 60px;}
 #select-box .inner .deco{display: flex; align-items: center; justify-content: center;}
 #select-box .inner .deco img{width: 30px; height: auto; padding-bottom: 140px;}
-#select-box .inner .deco h2{font-size: 22px; margin-bottom: 120px; animation: rotate2 2s ;}
+#select-box .inner .deco h2{font-size: 22px; margin-bottom: 120px; animation: rotate2 2s;}
 
 @keyframes rotate2 {
   0%{opacity: 0; rotate: 15deg;}

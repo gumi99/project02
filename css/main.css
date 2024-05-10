@@ -129,7 +129,7 @@ nav .m-menu .mdepth1 .arr span.move img{transform: rotate(180deg);}
 #f-info .inner{padding: 40px;}
 #f-info .inner .left-box{border-top: 3px solid #004C8A; border-bottom: 3px solid #004C8A; padding: 30px; color: #004C8A;}
 #f-info .inner .left-box h3{font-size: 22px; margin-bottom: 30px;}
-#f-info .inner .left-box p{line-height: 1.5; font-size: 18px; margin-bottom: 20px;}
+#f-info .inner .left-box p{line-height: 1.5; font-size: 18px; margin-bottom: 20px; padding-right: 5px;}
 #f-info .inner .left-box .service ul{display: flex; justify-content: space-between; flex-wrap: wrap;} 
 #f-info .inner .left-box .service ul li{padding: 15px 0; width: calc((100% - 40px) / 2); }
 #f-info .inner .left-box .service ul li a{position: relative; top: 0; left: 0;}
@@ -173,7 +173,7 @@ footer .inner .f-right p{line-height: 1.5;}
 
   nav .m-menu .mdepth1 .arr span img{display: none;}
 
-  .depth2{display: none; width: auto; padding: 15px; text-align: center; position: absolute; top: 90px; left: 0; background-color: #fff; z-index: -1;}
+  .depth2{display: none; width: auto; padding: 15px; text-align: center; position: absolute; top: 90px; left: 0;}
   nav .m-menu .mdepth1:nth-child(1) .depth2{left: 47px;}
   nav .m-menu .mdepth1:nth-child(2) .depth2{left: 151px;}
   nav .m-menu .mdepth1:nth-child(3) .depth2{left:297px;}
@@ -181,8 +181,8 @@ footer .inner .f-right p{line-height: 1.5;}
 
   .depth2 li{padding:5px 0;}
   .depth2 li:hover a{text-shadow: 1px 1px rgba(0, 0, 0, 0.1);}
-  nav .m-menu .mdepth1:hover .depth2{display: block; box-shadow: 1px 1px 10px 10px rgba(0 ,0,0,0.01);}
-  nav .m-menu .mdepth1:hover .arr{border-bottom: 2px solid rgba(0, 48, 96, 0.7) ;}
+  nav .m-menu .mdepth1:hover .depth2{display: block; box-shadow: 1px 1px 10px 10px rgba(0 ,0,0,0.01); background-color: #fff;}
+  nav .m-menu .mdepth1:hover .arr{border-bottom: 2px solid rgba(0, 48, 96, 0.7) ; z-index: 1;}
 
   #main-visual{width: 100%; height: 100vh;}
 
@@ -322,6 +322,7 @@ footer .inner .f-right p{line-height: 1.5;}
   #f-info .inner{display: flex; padding: 0;}
   #f-info .inner .left-box{width: 50%; height: 350px; padding: 30px; border: 0;}
   #f-info .inner .left-box::after{content: "";display: block; width: 100%; height: 3px; background-color: #004C8A;}
+  #f-info .inner .left-box p{padding-right: 0;}
   #f-info .inner .left-box h3{border-top: 3px solid #004C8A; padding-top:15px;}
   .right-box{display: block; width: 50%; height: 350px;}
   .right-box img{width: 100%; height: 100%; object-fit: cover;}

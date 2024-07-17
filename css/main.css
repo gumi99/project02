@@ -557,6 +557,7 @@ nav .m-menu .mdepth1 .arr span.move img {
 
 #f-info .inner .left-box .service ul {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -567,6 +568,7 @@ nav .m-menu .mdepth1 .arr span.move img {
 }
 
 #f-info .inner .left-box .service ul li a {
+  display: flex;
   position: relative;
   top: 0;
   left: 0;
